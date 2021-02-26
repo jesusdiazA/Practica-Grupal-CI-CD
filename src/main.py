@@ -8,3 +8,4 @@ def hello():
         return "Hello world. Primera práctica de Jenkins. Francisco Melero %s" % (res)
 if __name__ == "__main__":
         app.run(host='0.0.0.0',port=5000)
+//api
