@@ -4,7 +4,7 @@ MAINTAINER "Francisco Melero"
 # Ejecuta estos comandos a partir de la imagen ubuntu, para crear una nueva imagen
 RUN apt-get update
 RUN apt-get install python python-pip -y
-RUN apt-get install net-tools -y
+RUN apt-get install net-tools
 
 RUN mkdir /opt/app
 
